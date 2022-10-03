@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <img src="vegetables.png" width="1320" height="500" alt="this is an image">
+    <form action="">
+        <h1 style="background-color:lime"><br>Contact Us<br>Required Fields are followed by *</h1>
+        <br>
+        <br>
+
+        <p>
+            <hr>
+            First Name: * <input type="text" name="fname" id="fname" required>
+            Second Name: * <input type="text" name="sname" id="sname" required>
+            <br>
+            <hr>
+        </p>
+        <p>
+        <fieldset>
+            <legend>Gender * </legend>
+            <p>
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            Birthday * <input type="date" name="birthday" id="birthday" required>
+        </fieldset>
+
+        <fieldset>
+            <p>Email: * <input type="email" name="email" id="email" required></p>
+        </fieldset>
+
+        <fieldset>
+            <p>
+                Address: * <textarea name="address" id="address" cols="70" rows="10" required></textarea>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            What do you want to say? <textarea name="tellusproblem" id="tellusproblem" cols="70" rows="10"></textarea>
+        </fieldset>
+        </p>
+        <input style="background-color:blue" type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
